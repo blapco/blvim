@@ -1,6 +1,6 @@
 source $blvimRoot/core/platform.vim
 source $blvimRoot/core/win.vim
-source $blvimRoot/core/basics.vim
+source $blvimRoot/core/shell.vim
 source $blvimRoot/core/functions.vim
 
 if filereadable(expand("~/.blvim.vimrc"))
