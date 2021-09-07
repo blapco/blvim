@@ -16,5 +16,4 @@ source $blvimRoot/core/ui.vim
 source $blvimRoot/core/gui.vim
 source $blvimRoot/core/format.vim
 source $blvimRoot/core/session.vim
-source $blvimRoot/core/keymap.vim
 source $blvimRoot/plugins/config.vim
