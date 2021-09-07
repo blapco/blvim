@@ -15,3 +15,4 @@ if empty($blvimRoot)
 endif
 
 source $blvimRoot/core/blvim.vim
+set cmdheight=2
