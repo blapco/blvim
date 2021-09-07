@@ -1,6 +1,6 @@
 if !exists('g:blvimColorscheme')
-	if filereadable(expand(BlvimBundleDir("vim/colors/blsyntax")))
-		let g:blvimColorScheme = "blsyntax"
+	if filereadable(expand(BlvimColorDir("blsyntax")))
+		let g:blvimColorScheme = "blsyntax
 	else
 		silent !echo "blsyntax is not installed."
 	endif
@@ -36,4 +36,4 @@ syntax on
 set tabstop=4
 set shiftwidth=4
 set ai
-colorscheme blsyntax
+"colorscheme blsyntax
