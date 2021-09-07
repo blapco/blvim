@@ -20,3 +20,10 @@ endfunction
 function! BlvimBundleDir (bundleName)
 	return $blvimRoot . "/bundle/" . a:bundleName
 endfunction
+
+function! SourceConfigs (dir)
+	let fileList = split(globpath(a:dir, '*.vim'), '\n')
+	for vimConf in fileList
+		execute 'source' vimConf
+	endfor
+endfunction
