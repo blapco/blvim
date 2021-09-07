@@ -17,7 +17,7 @@ cd ~
 
 if [ ! -d ".blvim" ]; then
 	echo "Cloning blvim into ~/.blvim"
-	git clone https://b-ap.xyz/blvim ~/.blvim
+	git clone https://git.b-ap.xyz/blvim ~/.blvim
 else
 	echo "Updating blvim configuration."
 	git -C ~/.blvim pull
