@@ -1,4 +1,4 @@
-if !exists('g:blvimColorscheme')
+if !exists('g:blvimColorScheme')
 	if filereadable(expand(BlvimColorDir("blsyntax")))
 		let g:blvimColorScheme = "blsyntax
 	else

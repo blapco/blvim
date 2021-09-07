@@ -1,3 +1,3 @@
-for $bundleGroup in g:blvimBundleGroups
-	call SourceConfigs($blvimRoot . "/plugins/" . $bundleGroup)
-endfor
+"for $bundleGroup in g:blvimBundleGroups
+"	call SourceConfigs($blvimRoot . "/plugins/" . $bundleGroup)
+"endfor
