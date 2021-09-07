@@ -11,7 +11,7 @@ if filereadable(expand($blvimRoot . "/plugins/plugins.vim"))
 	source $blvimRoot/plugins/plugins.vim
 endif
 
-source $blvimRoot/general.vim
+source $blvimRoot/core/general.vim
 source $blvimRoot/core/ui.vim
 source $blvimRoot/core/gui.vim
-source $blvimRoot/plugins/config.vim
+"source $blvimRoot/plugins/config.vim

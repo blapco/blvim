@@ -13,4 +13,7 @@ set fileencodings=utf-8,ucs-bom,gb18030,gbk,gb2312,cp936
 set encoding=utf-8
 set viewoptions=folds,options,cursor,unix,slash
 set virtualedit=onemore
-set backup
+set nobackup
+set nowritebackup
+set noswapfile
+"set shortmess=a
