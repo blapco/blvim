@@ -1,5 +1,5 @@
 if !exists('g:blvimColorscheme')
-	if filereadable(expand(blvimBundleDir("vim/colors/blsyntax")))
+	if filereadable(expand(BlvimBundleDir("vim/colors/blsyntax")))
 		let g:blvimColorScheme = "blsyntax"
 	else
 		silent !echo "blsyntax is not installed."
