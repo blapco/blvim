@@ -48,4 +48,10 @@ if [ ! -f ".bash_aliases" ]; then
 	echo "alias blvim=vim" >> ~/.bash_aliases
 fi
 
-echo "Finished! Now, run, blvim and execute ':PlugInstall'!"
+echo "Installing plugins!"
+
+vim +'PlugInstall --sync' +qa
+
+echo "Finished!"
+
+#echo "Finished! Now, run, blvim and execute ':PlugInstall'!"
