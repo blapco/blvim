@@ -32,6 +32,7 @@ set confirm
 set list
 set listchars+=precedes:<,extends:>
 set listchars+=tab:\|\ 
+set listchars+=eol:•
 "set cc=80
 syntax on
 set tabstop=4
