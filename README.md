@@ -1,5 +1,5 @@
 # blvim — Biel A. P. Vim distribution.
 
-![blvim](demoImg)
+![blvim](demo)
 
-[demoImg]: demo.png
+[demo]: ./demo.png
