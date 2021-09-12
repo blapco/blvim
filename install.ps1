@@ -48,4 +48,6 @@ $uri = 'https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
 
 Pop-Location
 
-echo "Finished! Now, run, blvim and execute ':PlugInstall'!"
+vim + 'PlugInstall --sync' +qa
+
+echo "Finished!"
