@@ -1,3 +1,2 @@
 Plug 'miyakogi/conoline.vim'
 Plug 'mhinz/vim-startify'
-Plug 'ctrlpvim/ctrlp.vim'
