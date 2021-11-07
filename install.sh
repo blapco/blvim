@@ -52,6 +52,11 @@ echo "Installing plugins!"
 
 vim +'PlugInstall --sync' +qa
 
-echo "Finished!"
+if [ ! -f ".bash_aliases" ]; then
+	touch .bash_aliases
+	echo "alias blvim=vim" >> .bash_aliases
+else
+	echo "alias blvim=vim" > .bash_aliases
+fi
 
-#echo "Finished! Now, run, blvim and execute ':PlugInstall'!"
+echo "Finished!"
