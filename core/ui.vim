@@ -39,6 +39,19 @@ set tabstop=4
 set shiftwidth=4
 set ai
 
+set laststatus=2
+set statusline=
+set statusline+=%#PmenuSel#
+set statusline+=%{fugitive#head()}
+set statusline+=%#LineNr#
+set statusline+=\ %f
+set statusline+=%m
+set statusline+=%=
+"set statusline+=%#CursorColumn#
+set statusline+=\ %{&fileencoding?&fileencoding:&encoding}
+set statusline+=\ %l:%c
+set statusline+=
+
 let g:startify_custom_header = [
         \'    .  .          ',
         \'    |_ |.  ,.._ _ ',
