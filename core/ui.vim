@@ -40,6 +40,8 @@ set shiftwidth=4
 set ai
 "colorscheme blsyntax
 
+echo gitbranch#name()
+
 let g:startify_custom_header = [
         \'    .  .          ',
         \'    |_ |.  ,.._ _ ',
