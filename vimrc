@@ -15,3 +15,5 @@ if empty($blvimRoot)
 endif
 
 source $blvimRoot/core/blvim.vim
+
+echo gitbranch#name()

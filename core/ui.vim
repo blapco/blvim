@@ -38,17 +38,3 @@ syntax on
 set tabstop=4
 set shiftwidth=4
 set ai
-"colorscheme blsyntax
-
-echo gitbranch#name()
-
-let g:startify_custom_header = [
-        \'    .  .          ',
-        \'    |_ |.  ,.._ _ ',
-        \'    [_)| \/ |[ | )',
-        \'                  ',
-        \'    Biel A. P. Vim bundle',
-        \'                  ',
-        \'    — https://b-ap.xyz',
-        \'    — https://git.b-ap.xyz/blvim',]
-
