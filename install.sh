@@ -9,6 +9,7 @@ Biel A. P. vim bundle.
 
 - https://b-ap.xyz
 - https://git.b-ap.xyz/blvim
+
 EOF
 
 echo "Installing blvim..."
@@ -33,11 +34,6 @@ ln -sfnv ~/.blvim ~/.vim
 ln -sfnv ~/.blvim ~/.config/nvim
 ln -sfnv ~/.blvim/vimrc  ~/.blvim/init.vim
 ln -sfnv ~/.blvim/core/gui.vim ~/.blvim/ginit.vim
-
-if [ ! -f ".blvim.vimrc" ]; then
-	echo "Copied blvim configuration to ~/.blvim.vimrc"
-	cp ~/.blvim/.blvim.vimrc ~/.blvim.vimrc
-fi
 
 echo "Installing Vim-Plug."
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
