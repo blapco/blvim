@@ -1,3 +1,3 @@
-# blvim — BLAPCO's Vim bundle.
+# blvim — BLAPCO Vim bundle.
 
 ![blvim](./demo.png)
