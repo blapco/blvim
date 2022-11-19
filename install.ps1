@@ -4,10 +4,10 @@ Write-Host @"
 |_ |.  ,.._ _
 [_)| \/ |[ | )
 
-Biel A. P. vim bundle.
+BLAPCO vim bundle.
 
-- https://b-ap.xyz
-- https://git.b-ap.xyz/blvim
+- https://blapco.xyz
+- https://git.blapco.xyz/blvim
 "@
 
 
@@ -22,7 +22,7 @@ pushd ~
 
 if (!(Test-Path "~\.blvim)) {
 	echo "Cloning blvim into ~\.blvim"
-	git clone https://git.b-ap.xyz/blvim ~\.blvim
+	git clone https://git.blapco.xyz/blvim ~\.blvim
 }
 
 mkdir -Path ~\.blvim\autoload -Force
