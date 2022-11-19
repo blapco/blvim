@@ -14,4 +14,4 @@ endif
 source $blvimRoot/core/general.vim
 source $blvimRoot/core/ui.vim
 source $blvimRoot/core/gui.vim
-"source $blvimRoot/plugins/config.vim
+source $blvimRoot/plugins/config.vim
