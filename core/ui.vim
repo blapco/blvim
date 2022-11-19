@@ -42,7 +42,7 @@ set ai
 set laststatus=2
 set statusline=
 set statusline+=%#PmenuSel#
-#set statusline+=%{fugitive#head()}
+"set statusline+=%{fugitive#head()}
 set statusline+=%{gitbranch#GitInfo()}
 set statusline+=%#LineNr#
 set statusline+=\ %f
