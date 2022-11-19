@@ -1,3 +1,3 @@
-# blvim — Biel A. P. Vim distribution.
+# blvim — BLAPCO's Vim bundle.
 
 ![blvim](./demo.png)

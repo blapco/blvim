@@ -5,10 +5,10 @@ cat << EOF
 |_ |.  ,.._ _ 
 [_)| \/ |[ | )
                              
-Biel A. P. vim bundle.
+BLAPCO's vim bundle.
 
-- https://b-ap.xyz
-- https://git.b-ap.xyz/blvim
+- https://blapco.xyz
+- https://git.blapco.xyz/blvim
 
 EOF
 
@@ -18,7 +18,7 @@ cd ~
 
 if [ ! -d ".blvim" ]; then
 	echo "Cloning blvim into ~/.blvim"
-	git clone https://git.b-ap.xyz/blvim ~/.blvim
+	git clone https://git.blapco.xyz/blvim ~/.blvim
 else
 	echo "Updating blvim configuration."
 	git -C ~/.blvim pull
