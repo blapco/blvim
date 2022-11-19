@@ -37,7 +37,7 @@ ln -sfnv ~/.blvim/core/gui.vim ~/.blvim/ginit.vim
 
 echo "Installing Vim-Plug."
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
-	https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
 if [ ! -f ".bash_aliases" ]; then
 	touch ~/.bash_aliases
