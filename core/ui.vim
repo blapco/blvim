@@ -42,12 +42,13 @@ set ai
 set laststatus=2
 set statusline=
 set statusline+=%#PmenuSel#
-set statusline+=%{fugitive#head()}
+#set statusline+=%{fugitive#head()}
+set statusline+=%{gitbranch#GitInfo()}
 set statusline+=%#LineNr#
 set statusline+=\ %f
 set statusline+=%m
 set statusline+=%=
-"set statusline+=%#CursorColumn#
+set statusline+=%#CursorColumn#
 set statusline+=\ %{&fileencoding?&fileencoding:&encoding}
 set statusline+=\ %l:%c
 set statusline+=
@@ -57,7 +58,7 @@ let g:startify_custom_header = [
         \'    |_ |.  ,.._ _ ',
         \'    [_)| \/ |[ | )',
         \'                  ',
-        \'    Biel A. P. Vim bundle',
+        \'    BLAPCO Vim bundle.',
         \'                  ',
-        \'    — https://b-ap.xyz',
-        \'    — https://git.b-ap.xyz/blvim',]
+        \'    — https://blapco.xyz',
+        \'    — https://git.blapco.xyz/blvim',]

@@ -1,6 +1,6 @@
-let g:vimrc_author='Biel A. P.'
-let g:vimrc_email='b-ap@gmail.com'
-let g:vimrc_homepage='https://b-ap.xyz'
+let g:vimrc_author='BLAPCO'
+let g:vimrc_email='contact@blapco.xyz'
+let g:vimrc_homepage='https://blapco.xyz'
 
 set background=dark
 filetype plugin indent on
@@ -16,4 +16,3 @@ set virtualedit=onemore
 set nobackup
 set nowritebackup
 set noswapfile
-"set shortmess=a
