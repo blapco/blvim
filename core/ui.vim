@@ -42,8 +42,7 @@ set ai
 set laststatus=2
 set statusline=
 set statusline+=%#PmenuSel#
-"set statusline+=%{fugitive#head()}
-set statusline+=%{gitbranch#GitInfo()}
+set statusline+=%{gitbranch#name()}
 set statusline+=%#LineNr#
 set statusline+=\ %f
 set statusline+=%m
@@ -52,6 +51,13 @@ set statusline+=%#CursorColumn#
 set statusline+=\ %{&fileencoding?&fileencoding:&encoding}
 set statusline+=\ %l:%c
 set statusline+=
+
+set cursorcolumn
+set cursorline
+
+hi CursorLine   cterm=NONE ctermbg=17
+hi CursorLineNr cterm=bold ctermfg=grey
+hi CursorColumn ctermbg=17
 
 let g:startify_custom_header = [
         \'    .  .          ',
