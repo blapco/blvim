@@ -1,5 +1,5 @@
 " blsyntax — blvim's colorscheme.
-" — Biel A. P.
+" — Biel Polastrini.
 
 " Don't forget to enable 256 colors in your terminal.
 
@@ -26,3 +26,6 @@ hi PreProc   ctermfg=177   guifg=#d787ff
 hi Type      ctermfg=218   guifg=#ffafd7                           gui=bold        cterm=bold
 hi Special   ctermfg=48    guifg=#00ff87
 hi Identifier ctermfg=216  guifg=#ffaf87
+hi CursorLine   cterm=NONE ctermbg=17
+hi CursorLineNr cterm=bold ctermfg=grey
+hi CursorColumn ctermbg=17

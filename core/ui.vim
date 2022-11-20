@@ -55,10 +55,6 @@ set statusline+=
 set cursorcolumn
 set cursorline
 
-hi CursorLine   cterm=NONE ctermbg=17
-hi CursorLineNr cterm=bold ctermfg=grey
-hi CursorColumn ctermbg=17
-
 let g:startify_custom_header = [
         \'    .  .          ',
         \'    |_ |.  ,.._ _ ',
