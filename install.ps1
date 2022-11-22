@@ -4,7 +4,7 @@ Write-Host @"
 |_ |.  ,.._ _
 [_)| \/ |[ | )
 
-BLAPCO vim bundle.
+blapco's Vim bundle.
 
 - https://blapco.xyz
 - https://git.blapco.xyz/blvim

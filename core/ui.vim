@@ -56,11 +56,11 @@ set cursorcolumn
 set cursorline
 
 let g:startify_custom_header = [
-        \'    .  .          ',
-        \'    |_ |.  ,.._ _ ',
-        \'    [_)| \/ |[ | )',
-        \'                  ',
-        \'    BLAPCO Vim bundle.',
-        \'                  ',
-        \'    — https://blapco.xyz',
-        \'    — https://git.blapco.xyz/blvim',]
+        \"    .  .          ",
+        \"    |_ |.  ,.._ _ ",
+        \"    [_)| \\/ |[ | )",
+        \"                  ",
+        \"    blapco's Vim bundle.",
+        \"                  ",
+        \"    — https://blapco.xyz",
+        \"    — https://git.blapco.xyz/blvim",]

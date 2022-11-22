@@ -5,7 +5,7 @@ cat << EOF
 |_ |.  ,.._ _ 
 [_)| \/ |[ | )
                              
-BLAPCO's vim bundle.
+blapco's Vim bundle.
 
 - https://blapco.xyz
 - https://git.blapco.xyz/blvim

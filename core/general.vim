@@ -1,4 +1,4 @@
-let g:vimrc_author='BLAPCO'
+let g:vimrc_author='blapco'
 let g:vimrc_email='contact@blapco.xyz'
 let g:vimrc_homepage='https://blapco.xyz'
 
