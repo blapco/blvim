@@ -30,7 +30,7 @@ set incsearch
 set confirm
 set list
 set listchars+=precedes:<,extends:>
-set listchars+=tab:\>>\
+set listchars+=tab:\>>\ 
 set listchars+=eol:•
 set cc=80
 set tabstop=4
