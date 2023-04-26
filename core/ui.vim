@@ -18,27 +18,24 @@ if !exists('g:blvimFont')
 	endif
 endif
 
+syntax on
+
 set number
 set nowrap
 set wildmenu
 set t_Co=256
-
-""set termguicolors -> enable this if you want the same colors of GUI on the
-""terminal.
-
+"set termguicolors
 set ruler
 set incsearch
 set confirm
 set list
 set listchars+=precedes:<,extends:>
-set listchars+=tab:\|\ 
+set listchars+=tab:\>>\
 set listchars+=eol:•
-"set cc=80
-syntax on
+set cc=80
 set tabstop=4
 set shiftwidth=4
 set ai
-
 set laststatus=2
 set statusline=
 set statusline+=%#PmenuSel#
@@ -51,9 +48,8 @@ set statusline+=%#CursorColumn#
 set statusline+=\ %{&fileencoding?&fileencoding:&encoding}
 set statusline+=\ %l:%c
 set statusline+=
-
-set cursorcolumn
-set cursorline
+"set cursorcolumn
+"set cursorline
 
 let g:startify_custom_header = [
         \"    .  .          ",
