@@ -29,3 +29,6 @@ hi Identifier ctermfg=216  guifg=#ffaf87
 hi CursorLine   cterm=NONE ctermbg=17
 hi CursorLineNr cterm=bold ctermfg=grey
 hi CursorColumn ctermbg=17
+hi TabGroup  ctermfg=grey
+
+match TabGroup /\t/
